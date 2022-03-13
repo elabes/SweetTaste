@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pasteleria SweetTaste</title>
+        <link rel="stylesheet" href="styles/Styles.css">
+</head>
+<body>
+    <div class="background">
+    
+    <header>
+        <h1>Pasteleria SweetTaste</h1>
+        <img class="logo" src="images/logo.png" alt="Pasteleria SweetTaste" >
+    </header>
+    <div id="tabla pasteles">
+        <label class="precios" id="precios" name="precios"><h2>Precios de pasteles</h2></label>
+        <table id="tabla de sabores">
+            <tr>
+                
+                <th>Sabor</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                
+                <td>Chocolate</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Fresa</td>
+                <td>$120</td>
+            </tr>
+            <tr>
+                <td>Vainilla</td>
+                <td>$135</td>
+            </tr>
+            <tr>
+                <td>Tres leches</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td>Zanahoria</td>
+                <td>$180</td>
+            </tr>
+
+        </table><br>
+    </div>
+    <div id="tabla de adornos">
+        <label><h2>Precio adornos</h2></label>
+        <table id="tabla de adornos">
+            <tr>
+                <th>Adorno</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Velas</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Letro c/mensaje</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>Decoracion chantilly</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Pastel con forma</td>
+                <td>$100</td>
+            </tr>
+        </table>
+    </div>
+    <div id="formulariopedido">
+    <h2>Haz tu pedido !Ahora!</h2>
+    <form autocomplete="on" action="">
+        <div class="form">
+            <label>Nombre</label><br>
+            <input type="text" placeholder="Nombre*"><br>
+            <label>Telefono </label><br>
+            <input type="tel" placeholder="Telefono*"><br> 
+            <label>Correo electronico </label><br>
+            <input type="email" placeholder="Email*"><br> 
+            <label>Descripción general del pastel</label><br>
+            <input type="text" placeholder="Descripción"><br>
+            <h2>Elige el sabor</h2>
+            <select id="elegir sabor" >
+                <option value="chocolate">Chocolate</option>
+                <option value="fresa">Fresa</option>
+                <option value="vainilla">Vainilla</option>
+                <option value="tres leches">Tes leches</option>
+                <option value="zanahoria">Zanahoria</option>
+            </select><br>
+            <h2>Elige el adorno</h2>
+            <select id="elegir-adorno">
+                <option value="chocolate">Ninguno</option>
+                <option value="fresa">Velas</option>
+                <option value="vainilla">Letrero</option>
+                <option value="tres leches">chantilly</option>
+                <option value="zanahoria">Pastel c/forma</option>
+            </select><br><br><br>
+            <button type="submit" style="background-color:#5ea2f2;color:#ffffff;">Enviar pedido</button>  
+        </div>
+    </form>
+    </div>
+    <div>
+    <footer>
+        <h2>Contáctanos</h2>
+            <span style="display: inline-flex;">
+            <h3 style>Dirección</h3> 
+            <p class="contact">Rio Yaqui #630 Torreon, Coah. Mexico</p>
+            <h3>Teléfono</h3>
+            <p class="contact">(630)1234567</p>
+            <h3>Horarios</h3>
+            <p>
+                <ul class="contact">
+                    <li>Lunes - Viernes 9:00am - 9:00pm</li>
+                    <li>Sábado 9:00am - 5:00pm</li>
+                    <li>Domingo Cerrado</li>
+                </ul>
+            </p>
+            </span>
+    </footer>
+    </div>
+</div>
+</body>
+</html>
